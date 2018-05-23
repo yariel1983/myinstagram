@@ -1,0 +1,67 @@
+body {
+    background-color: hsl(203, 23%, 69%);
+
+}
+
+header {
+    background-color: transparent;
+}
+
+header div {
+    background-color: lightblue;
+    text-align: center;
+    border-radius: 25px;
+   
+}
+
+#mainContainer{
+    background-color: transparent;
+    
+}
+
+.centeredContainer{
+     width: 600px;
+     margin: auto;
+}
+
+.postcontainer{
+    margin-top:30px;
+    background-color: lightblue; 
+    border-radius: 25px;
+
+}
+
+.postHeaderContainer{
+        display: flex;
+}
+
+.postHeaderContainer div{
+        width: 50%;
+
+}
+
+.postHeaderDateContainer{
+    line-height: 30px;
+    font-size: 20px; 
+    text-align: right;
+}
+
+.postHeaderDateContainer{
+    line-height: 30px;
+    padding-right: 10px;
+}
+
+.postHeaderTitleContainer {
+    padding-left: 10px;
+
+    
+    
+}
+
+.postCommentContainer{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    font-weight: bold;
+
+}
